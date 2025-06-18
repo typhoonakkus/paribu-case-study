@@ -1,0 +1,11 @@
+{
+  "steps": ["src/steps/*.ts"],
+  "messages": true,
+  "snippetsEnabled": true,
+  "autocompleteFilter": "include",
+  "formatConfOverride": {
+    "feature": {
+      "indent": "    "
+    }
+  }
+}

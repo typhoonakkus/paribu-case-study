@@ -1,0 +1,157 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "paribu-market-order-calculation;verify-total-price-calculation-on-third-fan-crypto",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify total price calculation on third FAN crypto",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 428947599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the Paribu homepage",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3520953900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I close the cookie notice",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112316899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I navigate to the Markets page",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2367154799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I filter by FAN",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171046500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I set the price change timeframe to 12 hours",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346251299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I select the third listed cryptocurrency",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3463395699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter the current price into the Unit Price field",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94833699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I enter \"quantity\" as the quantity",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83189800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the Total Price should be correctly calculated",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 460973599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 701158799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "paribu-market-order-calculation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Paribu Market Order Calculation",
+    "tags": [],
+    "uri": "src\\features\\paribuMarket.feature"
+  }
+]
