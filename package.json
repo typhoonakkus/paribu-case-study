@@ -1,0 +1,28 @@
+{
+  "name": "paribu-api-case-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --format json:reports/cucumber-report.json && npm run report",
+    "test:parallel": "cucumber-js --parallel 4 --format json:reports/cucumber-report.json && npm run report",
+    "report": "ts-node scripts/generateReport.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@types/node": "^24.0.3",
+    "chai": "^5.2.0",
+    "dotenv": "^16.5.0",
+    "playwright": "^1.53.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
